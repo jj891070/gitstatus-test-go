@@ -1,7 +1,8 @@
-package main
+package greet
 
 import "fmt"
 
-func main() {
-	fmt.Println("This is gitstatus-test as a Go module!")
+// Hello 回傳問候語句
+func Hello(name string) string {
+	return fmt.Sprintf("Hello, %s!", name)
 }
